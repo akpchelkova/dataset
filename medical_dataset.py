@@ -7,13 +7,13 @@ from datetime import timedelta
 fake = Faker('ru_RU')
 
 # Задаем параметры
-num_rows = 50000  # количество строк
+num_rows = 52000  # количество строк
 
 # Настройки банка и типов карт
 banks_with_probabilities = {
-    "Сбербанк": {"Visa": 0.6, "MasterCard": 0.4},
-    "Тинькофф": {"Visa": 0.5, "MasterCard": 0.5},
-    "Альфа-Банк": {"Visa": 0.3, "MasterCard": 0.7},
+    "Сбербанк": {"Sber_Visa": 0.6, "Sber_MasterCard": 0.4},
+    "Тинькофф": {"T_Visa": 0.5, "T_MasterCard": 0.5},
+    "Альфа-Банк": {"Alfa_Visa": 0.3, "Alfa_MasterCard": 0.7},
 }
 
 # Список медицинских симптомов
